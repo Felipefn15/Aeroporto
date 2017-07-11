@@ -3,9 +3,19 @@
 #include "aero.h"
 #include <time.h>
 #include <locale.h>
+void menu(){
+    printf ("               ###########################################################\n ");
+    printf ("               ##                                                       ##\n ");
+    printf ("               ##          AUTHOR:FELIPE FRANÇA NOGUEIRA                ##\n ");
+    printf ("               ##                   2017                                ##\n ");
+    printf ("               ##                                                       ##\n ");
+    printf ("               ###########################################################\n\n\n\n ");
+
+}
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
+    menu();
     aeroporto *aero;
     aero = cria();
     aviao *av;
@@ -66,7 +76,7 @@ int main()
                 }
                 while(av!=NULL)
                 {
-                    printf("        -Id:%d\n        -Combustivel:%d\n",av->id,av->combustivel);
+                    printf("        -Id:%d\n        -Combustivel:%d\n        -Origem:%s\n",av->id,av->combustivel,av->local);
                     av=av->prox;
                 }
             }
@@ -79,7 +89,7 @@ int main()
             while(av!=NULL)
             {
                 printf("\n  Pratileira decolagem:\n");
-                printf("        -Id:%d\n",av->id);
+                printf("        -Id:%d\n        -Destino:%s\n",av->id,av->local);
                 av = av->prox;
             }
         }

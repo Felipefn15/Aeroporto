@@ -9,7 +9,6 @@ aeroporto* cria()
     aero->pis = (pis*) malloc(3*sizeof(pis));
     aero->faltaCombust=0;
     aero->aviaoCaiu=0;
-
 //Inicia pista 1
     aero->pis[0].pou = (pousa*)malloc(2*sizeof(pousa));
     aero->pis[0].dec = (decola*) malloc (sizeof(decola));
@@ -70,7 +69,13 @@ void inPou(aeroporto *aero)
     int combustivel/*unidade de tempo*/= 2+(rand() % 20);
     av->id = randomizaId();
     av->combustivel = combustivel;
-
+    int k,t;
+    k=1+(rand()%294);
+    aero->destino=fopen("dest.txt","r");
+    for(t=0;t<k;t++)
+    {
+        fscanf(aero->destino," %s\n",av->local);
+    }
     for(i=0; i<2; i++)
     {
         for(j=0; j<2; j++)
@@ -239,6 +244,13 @@ void inDec(aeroporto *aero)
     int i;
     aviao *av = (aviao*) malloc( sizeof(aviao));
     av->id = randomizaId();
+    int k,t;
+    k=1+(rand()%294);
+    aero->destino=fopen("dest.txt","r");
+    for(t=0;t<k;t++)
+    {
+        fscanf(aero->destino," %s\n",av->local);
+    }
     for(i=0; i<3; i++)
     {
         if(aero->pis[i].dec->ini==NULL)

@@ -3,6 +3,7 @@ struct Aeroporto
     struct pista *pis;
     int faltaCombust;
     int aviaoCaiu;
+    FILE *destino;
 };
 typedef struct Aeroporto aeroporto;
 
@@ -34,6 +35,7 @@ struct Aviao
 {
     int id;
     int combustivel;
+    char local[100];
     struct Aviao *prox;
 
 };
