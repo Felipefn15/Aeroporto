@@ -1,0 +1,17 @@
+No programa existe um contador que iniciará no 0 e irá acabar no 21.
+
+Ao iniciar o programa é gerado dinamicamente um aeroporto, dentro dele irão existir três pistas,
+as duas primeiras pistas terão ,cada uma delas, duas filas de espera para pousos de aviões e uma fila para decolagem,
+enquanto a terceira fila será usada exclusivamente para decolagens, a menos que haja um avião sem combustivel
+nesse momento o avião será direcionado para a pista três para pouso imediato.
+a cada momento apenas um avião pode utilizar a pista.
+
+Ordem de Prioridade:
+Aviões sem combustivel,
+Fila com maior tamanho,
+caso todas as filas tenham o mesmo, a prioridade é do pouso.
+
+Mesmo com esse controle haverão acidentes por falta de combustível,
+no final de cada momento aparecerão dois contadores, 
+um para aviões que pousaram sem combustivel e outro para aviões que cairam por falta de combustivel.
+
