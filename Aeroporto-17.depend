@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1497876286 source:c:\users\felipe\desktop\felipe\facul\estrutura\aeroporto2017\aeroporto-17\aero.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1497623159 c:\users\felipe\desktop\felipe\facul\estrutura\aeroporto2017\aeroporto-17\aero.h
+
+1497876121 source:c:\users\felipe\desktop\felipe\facul\estrutura\aeroporto2017\aeroporto-17\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1497999180 source:c:\users\uezo.uezolab\desktop\aeroporto2017\aeroporto-17\aero.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1497998577 c:\users\uezo.uezolab\desktop\aeroporto2017\aeroporto-17\aero.h
+
+1497999079 source:c:\users\uezo.uezolab\desktop\aeroporto2017\aeroporto-17\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1497634492 source:c:\users\felipe\desktop\aeroporto2017\aeroporto-17\aero.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1497623159 c:\users\felipe\desktop\aeroporto2017\aeroporto-17\aero.h
+
+1497635613 source:c:\users\felipe\desktop\aeroporto2017\aeroporto-17\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1499098057 source:c:\users\felipe\desktop\aeroporto2017-novo\aeroporto-17\aero.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1499096260 c:\users\felipe\desktop\aeroporto2017-novo\aeroporto-17\aero.h
+
+1499096833 source:c:\users\felipe\desktop\aeroporto2017-novo\aeroporto-17\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+	<locale.h>
+
+1499205104 source:d:\aeroporto2017-novo\aeroporto-17\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+	<locale.h>
+
+1499205104 d:\aeroporto2017-novo\aeroporto-17\aero.h
+
+1499205341 source:d:\aeroporto2017-novo\aeroporto-17\aero.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1499205341 source:e:\aeroporto2017-novo\aeroporto-17\aero.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+
+1499205104 e:\aeroporto2017-novo\aeroporto-17\aero.h
+
+1499205787 source:e:\aeroporto2017-novo\aeroporto-17\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aero.h"
+	<time.h>
+	<locale.h>
+
